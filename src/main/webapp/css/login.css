@@ -1,1 +1,27 @@
-//TODO: change backrground and color of input: transparent with white border?
+form.stacked > *, form.stacked .column > *, form.stacked .side-by-side > * {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input {
+    background: transparent;
+    border-width: 1.5px;
+    border-color: white;
+}
+
+button {
+    border: none;
+    margin-top: 1em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/*TODO: Border Color don't change when pressed'*/
+button:pressed {
+    border-color: black !important;
+    border-width: 2px !important;
+}

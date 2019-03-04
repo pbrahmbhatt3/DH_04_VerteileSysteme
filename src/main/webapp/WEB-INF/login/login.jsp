@@ -46,6 +46,7 @@
                     <input type="password" name="j_password">
 
                     <%-- Button zum Abschicken --%>
+                    <%--TODO: Remove icon before "Einloggen"--%>
                     <button class="icon-login" type="submit">
                         Einloggen
                     </button>
