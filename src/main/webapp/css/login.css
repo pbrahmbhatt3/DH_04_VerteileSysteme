@@ -21,7 +21,8 @@ button {
 }
 
 /*TODO: Border Color don't change when pressed'*/
-button:pressed {
-    border-color: black !important;
-    border-width: 2px !important;
+
+button:active{
+    border-color: black;
+    border-width: 2px;
 }
