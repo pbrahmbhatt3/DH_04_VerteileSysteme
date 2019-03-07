@@ -47,7 +47,7 @@
 
                     <%-- Button zum Abschicken --%>
                     <%--TODO: Remove icon before "Einloggen"--%>
-                    <button class="icon-login" type="submit">
+                    <button class="button" type="submit">
                         Einloggen
                     </button>
                 </div>
